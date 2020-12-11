@@ -1,0 +1,124 @@
+/* Descendant Selectors */
+
+* {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #696969;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  margin: 0.8rem 0 1.5rem;
+  background-color: #C0C0C0;
+  text-align: center;
+  border: none;
+  border: 1px solid #000000;
+}
+
+input:hover {
+  background-color: white;
+}
+
+/* Class Selectors */
+
+.intro {
+   font-family: "Bungee", cursive;
+   color: #FFFDD1;
+   font-size: 4.5rem;
+   padding-top: 50px;
+}
+
+.intro2 {
+  color: #dbdbdb;
+  font-size:  2rem;
+  margin-bottom: 6%;
+}
+
+.p-settings {
+  font-size: 0.9rem;
+}
+
+.maze {
+   margin-bottom: 100px;
+}
+
+.complete {
+  display: none;
+  position: relative;
+  width: 40%;
+  margin: auto;
+  background: #A9A9A9;
+  z-index: 4;
+  padding: 6rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.finish {
+  color: #EFEBD8;
+  margin-bottom: 30px;
+}
+
+.finish-info {
+  margin: 2% 0 1.2%;
+}
+
+.replay {
+  background-color: #C0C0C0;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  margin: 5% 3% 3%;
+}
+
+.replay:hover {
+  background-color: white;
+}
+
+.footer {
+   color: #696969;
+   margin: 3%;
+}
+
+
+/* ID Selectors */
+
+#timer {
+  display: none;
+  color: #FFFFFF;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+#settings {
+  position: relative;
+  background-color: #A9A9A9;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  border-radius: 40px;
+  padding: 4rem;
+  border: 1px solid black;
+}
+
+#submit {
+  background-color: #C0C0C0;
+  border-radius: 10px;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-top: 1.3rem;
+  font-size: 0.95rem;
+}
+
+#submit:hover {
+  background-color: #ffffff;
+}
+
+#footer {
+   padding: 30px 0;
+   background-color: #000000;
+}

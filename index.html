@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🟪Labyrinth🟩</title>
+  </head>
+  <body>
+
+     <h1 class="intro">Welcome to Labyrinth</h1>
+     <h2 class="intro2">Solve the riddle to escape</h2>
+
+     <div class="complete">
+       <h3 class="finish">Congratulations! You completed the maze.</h3>
+       <h3 class="finish-info">You took <span class="count-steps">count</span> steps & <span class="display-timer">00:00</span> minutes.</h3>
+       <button class="replay" id="submit">Replay ↺</button>
+     </div>
+
+      <h2 id="timer">00:00</h2>
+      <form id="settings">
+        <p class="p-settings">Maze Size:</p>
+        <input id="size" type="number" value="500"/></br>
+        <p class="p-settings">Rows/Columns:</p>
+        <input id="number" type="number" value="15" /></br>
+        <input id="submit" type="submit" value="Generate Maze">
+      </form>
+
+    <canvas class="maze"></canvas>
+
+    <div id="footer">
+
+         <p class="footer">- Developed by Aditya</p>
+         <p class="footer">© Labyrinth 2020</p>
+
+    </div>
+
+    <script src="maze.js" charset="utf-8"></script>
+    <script src="settings.js" charset="utf-8"></script>
+  </body>
+</html>
