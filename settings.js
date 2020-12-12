@@ -61,7 +61,7 @@ function move(e) {
 
 // Creating a timer to record time
 
-  //   setInterval(add, 1000);
+//   setInterval(add, 1000);
 //   let time = document.querySelector("#timer"),
 //        seconds = 0, minutes = 0;
 //
