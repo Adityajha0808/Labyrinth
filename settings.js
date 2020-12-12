@@ -61,27 +61,27 @@ function move(e) {
 
 // Creating a timer to record time
 
-  setInterval(add, 1000);
-  let time = document.querySelector("#timer"),
-       seconds = 0, minutes = 0;
-
-  function add() {
-      seconds++;
-        if (seconds == 60) {
-            minutes++;
-            seconds = 0;
-          }
-
-        time.textContent = (minutes < 10 ? "0" + minutes : minutes) + ":" +
-                           (seconds < 10 ? "0" + seconds : seconds);
-}
-
-  document.getElementById("timer").style.display = "block";
-
-  // Displaying time taken by the user
-
-  var displaytime = document.querySelector("#timer").textContent;
-  document.querySelector(".display-timer").innerHTML = displaytime;
+  //   setInterval(add, 1000);
+//   let time = document.querySelector("#timer"),
+//        seconds = 0, minutes = 0;
+//
+//   function add() {
+//       seconds++;
+//         if (seconds == 60) {
+//             minutes++;
+//             seconds = 0;
+//           }
+//
+//         time.textContent = (minutes < 10 ? "0" + minutes : minutes) + ":" +
+//                            (seconds < 10 ? "0" + seconds : seconds);
+// }
+//
+//   document.getElementById("timer").style.display = "block";
+//
+//   // Displaying time taken by the user
+//
+//   var displaytime = document.querySelector("#timer").textContent;
+//   document.querySelector(".display-timer").innerHTML = displaytime;
   document.querySelector(".count-steps").innerHTML = count+1;
 
 
