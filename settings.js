@@ -153,3 +153,7 @@ function move(e) {
       break;
   }
 }
+
+// Setting current year in copyright
+
+document.getElementByClass("currentYear").innerHTML = new Date().getFullYear();
