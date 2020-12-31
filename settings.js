@@ -156,4 +156,4 @@ function move(e) {
 
 // Setting current year in copyright
 
-document.getElementByClass("currentYear").innerHTML = new Date().getFullYear();
+// document.getElementByClass("currentYear").innerHTML = new Date().getFullYear();
