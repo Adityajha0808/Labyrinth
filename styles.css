@@ -83,7 +83,9 @@ input:hover {
    color: #696969;
    margin: 3%;
 }
-
+.current-year {
+  color: #696969;
+}
 
 /* ID Selectors */
 
