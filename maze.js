@@ -225,6 +225,12 @@ class Cell {
   }
 }
 
+// Setting current year in copyright
+
+let year = new Date().getFullYear();
+document.querySelector(".current-year").innerHTML= year;
+
+
 // let newMaze = new Maze(600, 50, 50);
 // newMaze.setup();
 // newMaze.draw();
