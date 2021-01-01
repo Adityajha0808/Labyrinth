@@ -86,6 +86,7 @@ function move(e) {
 
 
   switch (key) {
+
     case "ArrowUp":
       if (!current.walls.topWall) {
         let next = newMaze.grid[row - 1][col];
@@ -153,10 +154,3 @@ function move(e) {
       break;
   }
 }
-
-// Setting current year in copyright
-
-let year = new Date().getFullYear();
-document.querySelector(".current-year").innerHTML= year;
-
-// END OF CODE
