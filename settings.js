@@ -50,6 +50,8 @@ function victorySound() {
    audio.play();
  }
 
+ let x = 1;
+
 // JS for movement and arrow key presses
 function move(e) {
   if (!generationComplete)
@@ -61,27 +63,31 @@ function move(e) {
 
 // Creating a timer to record time
 
-//   setInterval(add, 1000);
-//   let time = document.querySelector("#timer"),
-//        seconds = 0, minutes = 0;
-//
-//   function add() {
-//       seconds++;
-//         if (seconds == 60) {
-//             minutes++;
-//             seconds = 0;
-//           }
-//
-//         time.textContent = (minutes < 10 ? "0" + minutes : minutes) + ":" +
-//                            (seconds < 10 ? "0" + seconds : seconds);
-// }
-//
-//   document.getElementById("timer").style.display = "block";
-//
-//   // Displaying time taken by the user
-//
-//   var displaytime = document.querySelector("#timer").textContent;
-//   document.querySelector(".display-timer").innerHTML = displaytime;
+  if(x > 0) {
+    setInterval(add, 1000);
+    x--;
+  }
+  
+  let time = document.querySelector("#timer"),
+       seconds = 0, minutes = 0;
+
+  function add() {
+      seconds++;
+        if (seconds == 60) {
+            minutes++;
+            seconds = 0;
+          }
+
+        time.textContent = (minutes < 10 ? "0" + minutes : minutes) + ":" +
+                           (seconds < 10 ? "0" + seconds : seconds);
+}
+
+  document.getElementById("timer").style.display = "block";
+
+  // Displaying time taken by the user
+
+  var displaytime = document.querySelector("#timer").textContent;
+  document.querySelector(".display-timer").innerHTML = displaytime;
   document.querySelector(".count-steps").innerHTML = count+1;
 
 
@@ -98,7 +104,7 @@ function move(e) {
         // not required if goal is in bottom right
         if (current.goal) {
           victorySound();
-          timer.style.display = "none";
+          time.style.display = "none";
           complete.style.display = "block";
         }
       }
@@ -114,7 +120,7 @@ function move(e) {
         current.highlight(newMaze.columns);
         if (current.goal) {
           victorySound();
-          timer.style.display = "none";
+          time.style.display = "none";
           complete.style.display = "block";
         }
       }
@@ -130,7 +136,7 @@ function move(e) {
         current.highlight(newMaze.columns);
         if (current.goal) {
           victorySound();
-          timer.style.display = "none";
+          time.style.display = "none";
           complete.style.display = "block";
         }
       }
@@ -147,7 +153,7 @@ function move(e) {
         // not required if goal is in bottom right
         if (current.goal) {
           victorySound();
-          timer.style.display = "none";
+          time.style.display = "none";
           complete.style.display = "block";
         }
       }
