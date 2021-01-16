@@ -88,14 +88,13 @@ input:hover {
   color: #696969;
 }
 
-
 /* ID Selectors */
 
 #timer {
   display: none;
   color: #FFFFFF;
-  text-decoration: underline;
-  margin-bottom: 5px;
+  background-color: black;
+  padding: 1%;
 }
 
 #settings {
