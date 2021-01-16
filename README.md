@@ -1,5 +1,5 @@
 # Labyrinth
 
-Maze game done using vanilla Javascript.
+Maze game using Vanilla Javascript.
 
 Visit here:- https://adityajha0808.github.io/Labyrinth/
