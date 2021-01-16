@@ -67,7 +67,7 @@ function move(e) {
     setInterval(add, 1000);
     x--;
   }
-  
+
   let time = document.querySelector("#timer"),
        seconds = 0, minutes = 0;
 
@@ -82,7 +82,7 @@ function move(e) {
                            (seconds < 10 ? "0" + seconds : seconds);
 }
 
-  document.getElementById("timer").style.display = "block";
+  document.getElementById("timer").style.display = "inline-block";
 
   // Displaying time taken by the user
 
