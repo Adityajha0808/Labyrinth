@@ -2,7 +2,7 @@
 
 A Maze game using Vanilla Javascript.
 
-(Approx. 12 hr solo project)
+(Approx. 12 hrs solo project)
 
 Visit here:- https://adityajha0808.github.io/Labyrinth/
 
