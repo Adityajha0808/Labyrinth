@@ -29,4 +29,4 @@ The goal is to make the purple avatar, meet the green box. Steps are:-
  
 A step tracker and a time tracker is also implemented to mark down the user's statistics.
 
-As the player completes the puzzle, a greeting prompt is thrown which shows the time taken and the total number of steps to complete maze; And allows if user want to restart!
+As the player completes the puzzle, a greeting prompt is thrown which shows the user statistics and allows if user want to restart!
