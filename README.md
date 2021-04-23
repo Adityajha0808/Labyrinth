@@ -16,16 +16,16 @@ Frequently implemented with a stack, this approach is one of the simplest ways t
 - While the stack is not empty
     1. Pop a cell from the stack and make it a current cell
     2. If the current cell has any neighbours which have not been visited:-
-          (i) Push the current cell to the stack
-          (ii) Choose one of the unvisited neighbours
-          (iii) Remove the wall between the current cell and the chosen cell
-          (iv) Mark the chosen cell as visited and push it to the stack
+          (a) Push the current cell to the stack
+          (b) Choose one of the unvisited neighbours
+          (c) Remove the wall between the current cell and the chosen cell
+          (d) Mark the chosen cell as visited and push it to the stack
          
 The goal is to make the purple avatar, meet the green box. Steps are:-
-        (i) Select the maze size between 300 to 600.
-        (ii) Select the number of rows/columns(between 5-30) for the maze to be generated.
-        (iii) Hold on! The algorithm will generate a maze as per your requirements. Once maze is generated the purple colored avatar rests back to initial position.
-        (iv) After maze generation, you can start moving by using arrow keys to reach your destination.
+        (1) Select the maze size between 300 to 600.
+        (2) Select the number of rows/columns(between 5-30) for the maze to be generated.
+        (3) Hold on! The algorithm will generate a maze as per your requirements. Once maze is generated the purple colored avatar rests back to initial position.
+        (4) After maze generation, you can start moving by using arrow keys to reach your destination.
  
 A step tracker and a time tracker is also implemented to mark down the user's statistics.
 
